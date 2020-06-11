@@ -21,8 +21,8 @@ The user will be able to:
   * View the combined weight of multiple exercises on the `stats` page.
 
 Come see for yourself!
---------------------------------------------------------
+
 #Technologies Used
 --------------------------------------------------------
- Mongo database, Express, Morgan
+ Mongoose, Express, Morgan
  
