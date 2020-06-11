@@ -1,12 +1,12 @@
 # Unit 17 Nosql: Workout Tracker
 ---------------------------------------------------
-Unmotivated to exercise? Find yourself starting exercise routines or workout fads but quickly lose steam? Enter in the Workout Tracker, an app to record your progress and keep you "on track"! The workout tracker allows users to:
+Unmotivated to exercise? Find yourself starting workout fads but quickly lose steam? Enter in the Workout Tracker, an app to record your progress and keep you on track! The workout tracker allows users to:
 
 1. View, create, and track daily workouts.
 2. Log multiple exercises in a workout on a given day.
 3. Track the name, type, weight, sets, reps, and duration of exercise.
 4. If the exercise is a cardio exercise, the workout tracker keeps track of the distance traveled.
-
+--------------------------------------------------------
 Here's how it works:
 ---------------------------------------------------
 
@@ -21,8 +21,8 @@ The user will be able to:
   * View the combined weight of multiple exercises on the `stats` page.
 
 Come see for yourself!
-
+--------------------------------------------------------
 #Technologies Used
 --------------------------------------------------------
- Mongo database, Express
+ Mongo database, Express, Morgan
  
