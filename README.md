@@ -22,7 +22,7 @@ The user will be able to:
 
 Come see for yourself!
 
-#Technologies Used
+Technologies Used
 --------------------------------------------------------
  Mongoose, Express, Morgan
  
