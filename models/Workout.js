@@ -46,3 +46,5 @@ const workoutSchema = new Schema({
 workoutSchema.virtual('totalTime').get(function () {
   return.this.exercises.reduce((t, exercise) => t + exercise.duration, 0)
 })
+
+module.exports = model('Workout', workoutSchema)
