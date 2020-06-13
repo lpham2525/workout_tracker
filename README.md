@@ -12,16 +12,27 @@ Here's how it works:
 
 When the user loads the page, they should be given the option to create a new workout, or continue with their last workout.
 
+------------------------------------------
+![Home](./public/home.png?raw=true "Home Page")
+-----------------------------------------------------
+
 The user will be able to:
+-------------------------------------------- 
+![Fitness](./public/fitness.png?raw=true "Fitness Tracker")
+--------------------------------------------
 
   * Add exercises to a previous workout plan.
 
   * Add new exercises to a new workout plan.
+----------------------------------------------------
+![Stats](./public/stats.png?raw=true "Stats Page")
+
+-------------------------------------------------------------
 
   * View the combined weight of multiple exercises on the `stats` page.
 
 Come see for yourself!
-
+-----------------------------------------------
 Technologies Used
 --------------------------------------------------------
  Mongoose, Express, Morgan
