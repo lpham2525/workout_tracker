@@ -18,7 +18,7 @@ const workoutSchema = new Schema({
     duration: {
       type: Number,
       required: true
-    }
+    },
     weight: {
       type: Number,
       required: false
@@ -44,7 +44,7 @@ const workoutSchema = new Schema({
 })
 
 workoutSchema.virtual('totalTime').get(function () {
-  return.this.exercises.reduce((t, exercise) => t + exercise.duration, 0)
+  return this.exercises.reduce((total, exercise) => total + exercise.duration, 0)
 })
 
 module.exports = model('Workout', workoutSchema)
