@@ -16,7 +16,7 @@ router.get('/stats', (req, res) => {
 })
 
 // GET all workouts
-router.get('/api/workout', (req, res) => {
+router.get('/workout', (req, res) => {
   Workout.find()
     .then(workouts => {
       res.json(workouts)
