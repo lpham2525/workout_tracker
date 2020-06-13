@@ -16,20 +16,22 @@ When the user loads the page, they should be given the option to create a new wo
 ![Home](./public/homepage.png?raw=true "Home Page")
 -----------------------------------------------------
 
-The user will be able to:
+The user will then be able to:
 -------------------------------------------- 
-![Fitness](./public/fitness.png?raw=true "Fitness Tracker")
---------------------------------------------
 
   * Add exercises to a previous workout plan.
 
   * Add new exercises to a new workout plan.
+
+  ![Fitness](./public/fitness.png?raw=true "Fitness Tracker")
+--------------------------------------------
+And, the best part of all(!):
 ----------------------------------------------------
 ![Stats](./public/stats.png?raw=true "Stats Page")
 
 -------------------------------------------------------------
 
-  * View the combined weight of multiple exercises on the `stats` page.
+  * The use can view the combined weight of multiple exercises on the `stats` page.
 
 Come see for yourself!
 -----------------------------------------------
