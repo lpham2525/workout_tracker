@@ -13,7 +13,7 @@ Here's how it works:
 When the user loads the page, they should be given the option to create a new workout, or continue with their last workout.
 
 ------------------------------------------
-![Home](./public/home.png?raw=true "Home Page")
+![Home](./public/homepage.png?raw=true "Home Page")
 -----------------------------------------------------
 
 The user will be able to:
