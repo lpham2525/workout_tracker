@@ -48,7 +48,7 @@ router.get('/api/workouts/range', (req, res) => {
 })
 
 // GET one workout
-router.get('/api/workouts', (req, res) => {
+router.get('/api/workouts/:id', (req, res) => {
   Workout.findById(req.query)
     .then(workout => {
       res.json(workout)
