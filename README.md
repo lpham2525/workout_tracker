@@ -31,7 +31,7 @@ And, the best part of all(!):
 
 -------------------------------------------------------------
 
-  * The use can view the combined weight of multiple exercises on the `stats` page.
+  * The user can view the combined weight of multiple exercises on the `stats` page.
 
 Come see for yourself!
 -----------------------------------------------
