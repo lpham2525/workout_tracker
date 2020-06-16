@@ -2,11 +2,13 @@ const API = {
   async getLastWorkout() {
     let res
     try {
-      res = await fetch('/api/workouts')
+      res = await fetch('/api/workouts/recent')
     } catch (err) {
       console.log(err)
     }
     const json = await res.json()
+    console.log('logging last workout', json)
+    
 
     return json[json.length - 1]
   },

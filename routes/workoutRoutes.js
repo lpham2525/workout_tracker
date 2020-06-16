@@ -21,15 +21,25 @@ router.get('/workouts/range', (req, res) => {
     .catch(err => console.error(err))
 })
 
+// GET most recent workout
+router.get('/workouts/recent', (req, res) => {
+  Workout.findOne({}, {}, { sort: { 'createdAt': -1 } }, function (err, workout) {
+    console.log(workout)
+    res.send([workout])
+  })
+})
+
 // GET one workout
 router.get('/workouts/:id', (req, res) => {
-  Workout.findById(req.query)
+  console.log("fetching workout by id")
+  Workout.findById(req.params.id)
     .then(workout => {
       res.json(workout)
       console.log(workout)
     })
     .catch(err => console.error(err))
 })
+
 
 // CREATE one workout
 router.post('/workouts', (req, res) => {
