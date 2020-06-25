@@ -34,7 +34,7 @@ And, the best part of all(!):
   * The user can view the combined weight of multiple exercises on the `stats` page.
 
 If you want to check out the deployed app, then navigate to: https://boiling-ocean-01580.herokuapp.com/
------------------------------------------------
+
 Technologies Used
 --------------------------------------------------------
  Mongoose, Express, Morgan
