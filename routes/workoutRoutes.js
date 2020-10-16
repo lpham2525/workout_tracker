@@ -40,7 +40,6 @@ router.get('/workouts/:id', (req, res) => {
     .catch(err => console.error(err))
 })
 
-
 // CREATE one workout
 router.post('/workouts', (req, res) => {
   Workout.create(req.body)
