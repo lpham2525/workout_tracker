@@ -1,6 +1,6 @@
 # Unit 17 Nosql: Workout Tracker
 ---------------------------------------------------
-Unmotivated to exercise? Find yourself starting workout fads but quickly lose steam? Enter in the Workout Tracker, an app to record your progress and keep you on track! The workout tracker allows users to:
+Unmotivated to exercise? Find yourself starting workout fads but quickly lose steam? Introducing the Workout Tracker, an app to record your progress and keep you on track! The workout tracker allows users to:
 
 1. View, create, and track daily workouts.
 2. Log multiple exercises in a workout on a given day.
